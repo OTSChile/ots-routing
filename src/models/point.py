@@ -19,13 +19,12 @@ def parse_point_from_string(point_str: str) -> Point:
     return Point(x, y)
 
 
-# En point.py
-def load_points_from_file(filepath):
+def read_points_from_file(filepath):
     with open(filepath, 'r') as file:
         data = json.load(file)
     
-    start_point = tuple(data['startPoint'])
-    delivery_points = [tuple(point) for point in data['deliveryPoints']]
-    final_point = tuple(data['finalPoint'])
+    start_point = Point(*data['startPoint'])
+    delivery_points = [Point(*point) for point in data['deliveryPoints']]
+    final_point = Point(*data['finalPoint'])
     
     return start_point, delivery_points, final_point
