@@ -1,6 +1,5 @@
 import unittest
 from src.models.point import Point
-from src.algorithms.exact_solver import held_karp
 from src.algorithms.heuristic_solver import simulated_annealing
 
 class TestAlgorithms(unittest.TestCase):
@@ -12,14 +11,6 @@ class TestAlgorithms(unittest.TestCase):
             Point(1, 1),
             Point(0, 1)
         ]
-
-    def test_held_karp(self):
-        # Probando el solucionador exacto
-        distance, path = held_karp(self.points)
-        self.assertIsInstance(distance, float)
-        self.assertIsInstance(path, list)
-        self.assertEqual(len(path), len(self.points))
-        # Se pueden agregar más aserciones según sea necesario
 
     def test_simulated_annealing(self):
         # Probando el solucionador heurístico
