@@ -7,7 +7,7 @@ from models.point import Point, read_points_from_file
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def total_distance(route):
-    """Calcula la distancia total de una ruta de puntos."""
+    """Calcula la distancia total de una ruta de puntos utilizando Haversine."""
     return sum(point.distance_to(next_point) for point, next_point in zip(route, route[1:]))
 
 def simulated_annealing(all_points, start_temp, alpha, num_iterations):
