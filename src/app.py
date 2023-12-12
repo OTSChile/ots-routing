@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from algorithms.heuristic_solver import simulated_annealing
-from algorithms.time_to_point import calcular_tiempo_hasta_cada_punto
+from algorithms.time_to_point import calcular_tiempo_desde_punto
 from models.point import Point
 
 app = Flask(__name__)
@@ -23,6 +23,21 @@ def solve_route():
             'Ruta sugerida': optimal_route_dict
         }
     })
+    
+
+@app.route('/calculate-time', methods=['POST'])
+def calculate_time_to_points():
+    data = request.get_json()
+    punto_x = Point(*data['punto_x'])
+    puntos_destino = [Point(*coords) for coords in data['puntos_destino']]
+    velocidad_promedio = data.get('velocidad_promedio', 35)  # 35 km/h por defecto si no se especifica
+    tiempo_adicional_por_parada = data.get('tiempo_adicional_por_parada', 5)
+
+    tiempos = calcular_tiempo_desde_punto(punto_x, puntos_destino, velocidad_promedio, tiempo_adicional_por_parada)
+    tiempos_formato = [{'tiempo': tiempo} for tiempo in tiempos]
+
+    return jsonify(tiempos_formato)
+    
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

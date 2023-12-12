@@ -28,6 +28,7 @@ class Point:
 
         distance = R * c
         return distance
+    
     def to_dict(self):
         """Convierte el objeto Point en un diccionario."""
         return {'x': self.x, 'y': self.y}
