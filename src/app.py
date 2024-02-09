@@ -13,8 +13,8 @@ def solve_route():
     delivery_points = [Point(*point) for point in delivery_points]
     final_point = Point(*final_point)
     
-
-    optimal_route_heuristic, optimal_distance_heuristic = simulated_annealing([start_point] + delivery_points + [final_point], start_temp=10000, alpha=0.995, num_iterations=10000)
+    
+    optimal_route_heuristic, optimal_distance_heuristic = simulated_annealing([start_point] + delivery_points + [final_point], start_temp=9999, alpha=0.998, num_iterations=9999)
     optimal_route_dict = [point.to_list() for point in optimal_route_heuristic]
     
     return jsonify({
@@ -28,8 +28,8 @@ def solve_route():
 @app.route('/calculate-time', methods=['POST'])
 def calculate_time_to_points():
     data = request.get_json()
-    punto_x = Point(*data['punto_x'])
-    puntos_destino = [Point(*coords) for coords in data['puntos_destino']]
+    punto_x = Point(*data['start_point'])
+    puntos_destino = [Point(*coords) for coords in data['map_points']]
     velocidad_promedio = data.get('velocidad_promedio', 35)  # 35 km/h por defecto si no se especifica
     tiempo_adicional_por_parada = data.get('tiempo_adicional_por_parada', 5)
 

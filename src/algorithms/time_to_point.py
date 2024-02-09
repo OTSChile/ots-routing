@@ -15,12 +15,19 @@ def calcular_tiempo_desde_punto(punto_x, puntos_destino, velocidad_promedio, tie
     tiempos = []
     tiempo_acumulado = 0  # Inicia el tiempo acumulado
 
-    for punto in puntos_destino:
-        distancia = punto_x.distance_to(punto)
-        tiempo_viaje = (distancia / velocidad_promedio) * 60  # Convertir a minutos
-        tiempo_acumulado += tiempo_viaje + tiempo_adicional_por_parada  # Suma el tiempo de viaje y el adicional
-        horas = int(tiempo_acumulado // 60)
-        minutos = int(tiempo_acumulado % 60)
-        tiempos.append(f"{horas:02d}:{minutos:02d}")  # Formato hh:mm
+    try:
+        for punto in puntos_destino:
+            distancia = punto_x.distance_to(punto)
+            tiempo_viaje = (distancia / velocidad_promedio) * 60  # Convertir a minutos
+            tiempo_acumulado += tiempo_viaje + tiempo_adicional_por_parada  # Suma el tiempo de viaje y el adicional
+            horas = int(tiempo_acumulado // 60)
+            minutos = int(tiempo_acumulado % 60)
+            tiempos.append(f"{horas:02d}:{minutos:02d}")  # Formato hh:mm
+    except TypeError as e:
+        print(f"Error en el tipo de datos: {e}")
+        return None
+    except Exception as e:
+        print(f"Error inesperado: {e}")
+        return None
 
     return tiempos
