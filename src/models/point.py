@@ -3,12 +3,14 @@ import math
 
 
 class Point:
-    def __init__(self, x: float, y: float):
+    def __init__(self, id1, id2, x: float, y: float):
+        self.id1 = id1
+        self.id2 = id2
         self.x = x
         self.y = y
 
     def __repr__(self):
-        return f"Point({self.x}, {self.y})"
+        return f"Point({self.id1}, {self.id2}, {self.x}, {self.y})"
 
     def distance_to(self, other_point) -> float:
         """Calcula la distancia entre este punto y otro usando la fórmula Haversine."""
@@ -31,10 +33,10 @@ class Point:
     
     def to_dict(self):
         """Convierte el objeto Point en un diccionario."""
-        return {'x': self.x, 'y': self.y}
+        return {'id1': self.id1, 'id2': self.id2, 'x': self.x, 'y': self.y}
     def to_list(self):
-        """Convierte el objeto Point en una lista [x, y]."""
-        return [self.x, self.y]
+        """Convierte el objeto Point en una lista [id1, id2, x, y]."""
+        return [self.id1, self.id2, self.x, self.y]
 
 
 def parse_point_from_string(point_str: str) -> Point:
