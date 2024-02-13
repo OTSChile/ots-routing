@@ -1,16 +1,18 @@
 import json
 import math
+import logging
 
 
-class Point:
+class CustomPoint:
     def __init__(self, id1, id2, x: float, y: float):
+        logging.debug(f"Creando Point con id1={id1}, id2={id2}, x={x}, y={y}")
         self.id1 = id1
         self.id2 = id2
         self.x = x
         self.y = y
 
     def __repr__(self):
-        return f"Point({self.id1}, {self.id2}, {self.x}, {self.y})"
+        return f"CustomPoint({self.id1}, {self.id2}, {self.x}, {self.y})"
 
     def distance_to(self, other_point) -> float:
         """Calcula la distancia entre este punto y otro usando la fórmula Haversine."""
@@ -39,18 +41,18 @@ class Point:
         return [self.id1, self.id2, self.x, self.y]
 
 
-def parse_point_from_string(point_str: str) -> Point:
-    """Convierte una cadena de texto en formato '[x, y]' a un objeto Point."""
-    x, y = eval(point_str)
-    return Point(x, y)
+def parse_point_from_string(point_str: str) -> CustomPoint:
+    """Convierte una cadena de texto en formato '[id1, id2, x, y]' a un objeto Point."""
+    id1, id2, x, y = eval(point_str)
+    return CustomPoint(id1, id2, x, y)
 
 
 def read_points_from_file(filepath):
     with open(filepath, 'r') as file:
         data = json.load(file)
     
-    start_point = Point(*data['startPoint'])
-    delivery_points = [Point(*point) for point in data['deliveryPoints']]
-    final_point = Point(*data['finalPoint'])
+    start_point = CustomPoint(*data['startPoint'])
+    delivery_points = [CustomPoint(*point) for point in data['deliveryPoints']]
+    final_point = CustomPoint(*data['finalPoint'])
     
     return start_point, delivery_points, final_point

@@ -1,13 +1,15 @@
 import json
 
 class Paquete:
-    def __init__(self, id: str, peso: float, volumen: float, bultos: int, direccion_destino: str, identificador_adicional: str):
+    def __init__(self, id: str, peso: float, volumen: float, bultos: int, direccion_destino: str, identificador_adicional: str, estado_asignacion: str, id_estado_paquete: str):
         self.id = id
         self.peso = peso
         self.volumen = volumen
         self.bultos = bultos
         self.direccion_destino = direccion_destino
         self.identificador_adicional = identificador_adicional
+        self.estado_asignacion = estado_asignacion
+        self.id_estado_paquete = id_estado_paquete
         # Puedes añadir más atributos si son necesarios
 
     def __repr__(self):

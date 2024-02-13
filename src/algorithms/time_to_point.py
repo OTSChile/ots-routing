@@ -1,12 +1,12 @@
-from models.point import Point
+from models.point import CustomPoint
 
 def calcular_tiempo_desde_punto(punto_x, puntos_destino, velocidad_promedio, tiempo_adicional_por_parada):
     """
     Calcula el tiempo estimado desde un punto X hasta cada punto en una lista de destinos,
     añadiendo un tiempo adicional en cada parada.
 
-    :param punto_x: Punto de origen (Point).
-    :param puntos_destino: Lista de puntos de destino (Point).
+    :param punto_x: Punto de origen (CustomPoint).
+    :param puntos_destino: Lista de puntos de destino (CustomPoint).
     :param velocidad_promedio: Velocidad promedio de viaje en km/h.
     :param tiempo_adicional_por_parada: Tiempo adicional en cada parada (en minutos).
     :return: Lista de tiempos estimados para llegar a cada punto de destino desde punto X,

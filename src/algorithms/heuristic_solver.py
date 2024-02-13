@@ -1,7 +1,7 @@
 import random
 import math
 import logging
-from models.point import Point, read_points_from_file
+from models.point import *
 
 # Configura el logging para mostrar mensajes debug
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
