@@ -4,7 +4,7 @@ import logging
 
 class CustomPoint:
     def __init__(self, id1, id2, x: float, y: float, peso=None, volumen=None, bultos=None):
-        logging.debug(f"Creando Point con id1={id1}, id2={id2}, x={x}, y={y}, peso={peso}, volumen={volumen}, bultos={bultos}")
+        #logging.debug(f"Creando Point con id1={id1}, id2={id2}, x={x}, y={y}, peso={peso}, volumen={volumen}, bultos={bultos}")
         self.id1 = id1
         self.id2 = id2
         self.x = x

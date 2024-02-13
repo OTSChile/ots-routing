@@ -6,7 +6,7 @@ def read_points_from_file(filepath):
         data = json.load(file)
     
     start_point = CustomPoint(*data['startPoint'])
-    delivery_points = [Point(*point) for point in data['deliveryPoints']]
+    delivery_points = [CustomPoint(*point) for point in data['deliveryPoints']]
     final_point = CustomPoint(*data['finalPoint'])
     
     return start_point, delivery_points, final_point

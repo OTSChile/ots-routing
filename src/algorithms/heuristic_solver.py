@@ -11,6 +11,8 @@ def total_distance(route):
     return sum(point.distance_to(next_point) for point, next_point in zip(route, route[1:]))
 
 def simulated_annealing(all_points, start_temp, alpha, num_iterations):
+    logging.debug("Función simulated_annealing llamada")
+    logging.debug(f"Puntos recibidos: {all_points}")
     current_temp = start_temp
     current_route = all_points[:]
     current_distance = total_distance(current_route)
@@ -33,3 +35,5 @@ def simulated_annealing(all_points, start_temp, alpha, num_iterations):
 
 
     return current_route, current_distance
+
+

@@ -1,5 +1,4 @@
-from flask import Flask, jsonify, request
-from algorithms.point_assignment import main
+from flask import Flask
 from routes.solve_route import solve_route_logic
 from routes.eta import calculate_time_to_points_logic
 from routes.visualize_points import visualize_geofence

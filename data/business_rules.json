@@ -3,7 +3,7 @@
         "id": "1",
         "tolerancia_carga": 0,
         "tolerancia_volumen": 0,
-        "bultos_maximo": 80,
+        "bultos_maximo": 100,
         "tipo": "Camiones medios"
     },
     {
@@ -17,7 +17,14 @@
         "id": "3",
         "capacidad_peso": 0,
         "capacidad_volumen": 0,
-        "bultos_maximo": 40,
+        "bultos_maximo": 80,
         "tipo": "Autos"
+    },
+    {
+        "id": "3",
+        "capacidad_peso": 0,
+        "capacidad_volumen": 0,
+        "bultos_maximo": 70,
+        "tipo": "Camiones refrigerados"
     }
 ]

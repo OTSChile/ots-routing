@@ -18,6 +18,23 @@ def solve_route_logic():
     optimal_route_heuristic, optimal_distance_heuristic = simulated_annealing([start_point] + delivery_points + [final_point], start_temp=9999, alpha=0.998, num_iterations=9999)
     optimal_route_dict = [point.to_list() for point in optimal_route_heuristic]
 
-    return jsonify({
-        'Ruta optimizada': optimal_route_dict
-    })
+    return optimal_route_dict
+
+def solve_route_logic_internal(data):
+    logging.debug("Función solve_route_logic_internal llamada")
+    logging.debug(f"Datos recibidos: {data}")
+
+    # Crear instancias de CustomPoint
+    start_point = CustomPoint(**data['startPoint'])
+    final_point = CustomPoint(**data['finalPoint'])
+    delivery_points = [CustomPoint(**point) for point in data['deliveryPoints']]
+
+    # Verificar si hay suficientes puntos para aplicar simulated annealing
+    if len(delivery_points) > 0:
+        optimal_route_heuristic = simulated_annealing([start_point] + delivery_points + [final_point], start_temp=9999, alpha=0.998, num_iterations=9999)
+        optimal_route_dict = [point.to_list() for point in optimal_route_heuristic]
+    else:
+        # Si solo hay punto inicial y final, devuelve la ruta tal como está
+        optimal_route_dict = [start_point.to_list(), final_point.to_list()]
+
+    return optimal_route_dict
