@@ -4,7 +4,9 @@ from algorithms.time_to_point import calcular_tiempo_desde_punto
 from models.point import CustomPoint
 from algorithms.geofence import *
 from algorithms.distance_calculator import *
+from algorithms.point_assignment import main
 from static.coords import geocerca
+
 import logging
 
 # Configura el logging
@@ -124,7 +126,17 @@ def get_furthest_point():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/assign_points', methods=['POST'])
+def assign_points():
+    data = request.get_json()
+    punto_inicial = data.get('punto_inicial')  # Asegúrate de que esta estructura coincida con lo que envías
+    puntos_a_visitar = data.get('puntos_a_visitar')  # Asegúrate de que esta estructura coincida con lo que envías
 
+    if not punto_inicial or not puntos_a_visitar:
+        return jsonify({"error": "Datos de entrada incompletos"}), 400
+
+    resultado = main(punto_inicial, puntos_a_visitar)
+    return jsonify(resultado)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

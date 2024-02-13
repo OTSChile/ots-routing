@@ -1,0 +1,702 @@
+[
+    {
+      "id": "ZDIT69",
+      "capacidad_peso": 1588.1580033250036,
+      "capacidad_volumen": 26.75596365155311,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "WMCW72",
+      "capacidad_peso": 575.0631038158126,
+      "capacidad_volumen": 12.807252921799831,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "AEDY82",
+      "capacidad_peso": 1754.7735780116852,
+      "capacidad_volumen": 27.09525903923533,
+      "tipo": "Camiones medios",
+      "disponible": false
+    },
+    {
+      "id": "FXTL09",
+      "capacidad_peso": 1865.0706966706416,
+      "capacidad_volumen": 3.026858209178529,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "SOMY78",
+      "capacidad_peso": 1043.954415122408,
+      "capacidad_volumen": 1.3931377483634635,
+      "tipo": "Camiones pequeños",
+      "disponible": false
+    },
+    {
+      "id": "ORPU88",
+      "capacidad_peso": 1858.9530934039553,
+      "capacidad_volumen": 20.650953175382845,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "SUGT09",
+      "capacidad_peso": 295.9408907348984,
+      "capacidad_volumen": 14.069122228529716,
+      "tipo": "Furgones",
+      "disponible": true
+    },
+    {
+      "id": "VSHZ82",
+      "capacidad_peso": 1497.1796536739307,
+      "capacidad_volumen": 8.2593326598642,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "NECK74",
+      "capacidad_peso": 282.4155933560666,
+      "capacidad_volumen": 11.43436349588335,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "NHJW80",
+      "capacidad_peso": 1371.2093557415249,
+      "capacidad_volumen": 29.63912691685571,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "KJJT99",
+      "capacidad_peso": 320.81498046530953,
+      "capacidad_volumen": 14.351411242744167,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "NFJM87",
+      "capacidad_peso": 1574.0757402369213,
+      "capacidad_volumen": 15.024054413047823,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "NICR56",
+      "capacidad_peso": 160.15390793931806,
+      "capacidad_volumen": 5.2893618523939345,
+      "tipo": "Motos",
+      "disponible": false
+    },
+    {
+      "id": "KLFU24",
+      "capacidad_peso": 1736.049224161533,
+      "capacidad_volumen": 7.252123462900834,
+      "tipo": "Camiones pequeños",
+      "disponible": true
+    },
+    {
+      "id": "CJHV82",
+      "capacidad_peso": 889.3108718900266,
+      "capacidad_volumen": 25.573215965139923,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "PATJ92",
+      "capacidad_peso": 1738.1081150888017,
+      "capacidad_volumen": 9.711345054089316,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "ENNQ35",
+      "capacidad_peso": 893.3906962921427,
+      "capacidad_volumen": 11.891736312862951,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "TUVO49",
+      "capacidad_peso": 378.0553889999258,
+      "capacidad_volumen": 2.2437620943572893,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "PEBE30",
+      "capacidad_peso": 773.5679930908902,
+      "capacidad_volumen": 27.83511320134817,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "DBVS24",
+      "capacidad_peso": 1284.5687922349425,
+      "capacidad_volumen": 15.19262552299129,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "JIKG12",
+      "capacidad_peso": 855.8510934965261,
+      "capacidad_volumen": 26.54150788518563,
+      "tipo": "Camiones refrigerados",
+      "disponible": false
+    },
+    {
+      "id": "EZFO76",
+      "capacidad_peso": 1497.588139545282,
+      "capacidad_volumen": 13.287543202155943,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "LJXN36",
+      "capacidad_peso": 1583.328013330607,
+      "capacidad_volumen": 12.91320684648144,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "UQMZ48",
+      "capacidad_peso": 1749.0128762883396,
+      "capacidad_volumen": 8.39061648705066,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "KQMG45",
+      "capacidad_peso": 631.2134852660555,
+      "capacidad_volumen": 13.792410302290143,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "MIDK46",
+      "capacidad_peso": 419.04955720712707,
+      "capacidad_volumen": 29.337518170942943,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "QLHH69",
+      "capacidad_peso": 710.6863532708502,
+      "capacidad_volumen": 26.977339431816777,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "ALIN77",
+      "capacidad_peso": 299.7590244436701,
+      "capacidad_volumen": 14.955730879811219,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "KMNV89",
+      "capacidad_peso": 1352.2532181720708,
+      "capacidad_volumen": 14.89286233569132,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "USAA49",
+      "capacidad_peso": 1598.8525799670567,
+      "capacidad_volumen": 17.248303256047826,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "NPYO15",
+      "capacidad_peso": 212.5251393474241,
+      "capacidad_volumen": 5.125236536244808,
+      "tipo": "Camiones pequeños",
+      "disponible": true
+    },
+    {
+      "id": "NNUA10",
+      "capacidad_peso": 1699.2557639995541,
+      "capacidad_volumen": 20.673535020925062,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "IQDI01",
+      "capacidad_peso": 780.5486111018489,
+      "capacidad_volumen": 18.352116337217513,
+      "tipo": "Autos",
+      "disponible": false
+    },
+    {
+      "id": "KHUU51",
+      "capacidad_peso": 706.8259291740552,
+      "capacidad_volumen": 11.99912613307351,
+      "tipo": "Camiones medios",
+      "disponible": false
+    },
+    {
+      "id": "RSDA92",
+      "capacidad_peso": 917.8817017927587,
+      "capacidad_volumen": 1.6377422617591937,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "TMNG26",
+      "capacidad_peso": 674.8796620530063,
+      "capacidad_volumen": 19.636518663838366,
+      "tipo": "Camiones refrigerados",
+      "disponible": false
+    },
+    {
+      "id": "RDIO92",
+      "capacidad_peso": 577.1222072869882,
+      "capacidad_volumen": 29.079176558654904,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "PVQZ61",
+      "capacidad_peso": 965.1376625559915,
+      "capacidad_volumen": 11.558754434713077,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "TCLX58",
+      "capacidad_peso": 327.00409770675947,
+      "capacidad_volumen": 24.20892488222257,
+      "tipo": "Camiones pequeños",
+      "disponible": false
+    },
+    {
+      "id": "DMKV68",
+      "capacidad_peso": 1921.828225154849,
+      "capacidad_volumen": 22.379985405310514,
+      "tipo": "Furgones",
+      "disponible": true
+    },
+    {
+      "id": "RINH31",
+      "capacidad_peso": 1056.485413252737,
+      "capacidad_volumen": 5.842067961575757,
+      "tipo": "Furgones",
+      "disponible": true
+    },
+    {
+      "id": "KJTB83",
+      "capacidad_peso": 699.9977732014014,
+      "capacidad_volumen": 20.253194789942857,
+      "tipo": "Camiones pequeños",
+      "disponible": true
+    },
+    {
+      "id": "DRDH78",
+      "capacidad_peso": 1923.4687124722986,
+      "capacidad_volumen": 23.839147905851767,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "HPKQ52",
+      "capacidad_peso": 446.17133938996164,
+      "capacidad_volumen": 19.857171071953125,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "ICJE08",
+      "capacidad_peso": 719.3443400655682,
+      "capacidad_volumen": 8.428769633903956,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "GOEF90",
+      "capacidad_peso": 618.4894893247767,
+      "capacidad_volumen": 8.807678966145817,
+      "tipo": "Camiones medios",
+      "disponible": false
+    },
+    {
+      "id": "JKSK85",
+      "capacidad_peso": 1561.551176566789,
+      "capacidad_volumen": 16.157805564261842,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "FLHJ81",
+      "capacidad_peso": 1780.116661773797,
+      "capacidad_volumen": 11.564490079945166,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "MPLI98",
+      "capacidad_peso": 1912.4747916728727,
+      "capacidad_volumen": 20.60215706171586,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "YQFS40",
+      "capacidad_peso": 1596.912349538237,
+      "capacidad_volumen": 9.927262542014251,
+      "tipo": "Furgones",
+      "disponible": true
+    },
+    {
+      "id": "XNAH53",
+      "capacidad_peso": 1058.071033886831,
+      "capacidad_volumen": 29.579540990290653,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "UDDP86",
+      "capacidad_peso": 665.8171311785646,
+      "capacidad_volumen": 9.468840335470347,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "KMYM11",
+      "capacidad_peso": 1204.8660489159108,
+      "capacidad_volumen": 22.939957324234616,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "DHYG72",
+      "capacidad_peso": 163.75934268689673,
+      "capacidad_volumen": 26.12240275406593,
+      "tipo": "Camiones refrigerados",
+      "disponible": false
+    },
+    {
+      "id": "MRMS38",
+      "capacidad_peso": 1508.6458790107793,
+      "capacidad_volumen": 16.315783955310923,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "TFGC53",
+      "capacidad_peso": 1110.2041532004398,
+      "capacidad_volumen": 22.055323447953857,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "OFWF01",
+      "capacidad_peso": 796.1992645391315,
+      "capacidad_volumen": 9.50581841747553,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "KSMX96",
+      "capacidad_peso": 142.6086862276631,
+      "capacidad_volumen": 7.832951143835106,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "SSDH31",
+      "capacidad_peso": 661.3793015989929,
+      "capacidad_volumen": 21.00568543673196,
+      "tipo": "Camiones pequeños",
+      "disponible": false
+    },
+    {
+      "id": "CIFS21",
+      "capacidad_peso": 1864.5393817524148,
+      "capacidad_volumen": 11.46439196745162,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "VGSK64",
+      "capacidad_peso": 1264.9391947715008,
+      "capacidad_volumen": 5.8364702419321395,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "RXTQ76",
+      "capacidad_peso": 1378.6454775248123,
+      "capacidad_volumen": 2.6355552493197187,
+      "tipo": "Camiones pequeños",
+      "disponible": false
+    },
+    {
+      "id": "HZOV55",
+      "capacidad_peso": 892.6232393496783,
+      "capacidad_volumen": 1.6682708142781477,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "SJRY22",
+      "capacidad_peso": 1736.136388246119,
+      "capacidad_volumen": 8.959985705543474,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "BKLI82",
+      "capacidad_peso": 1444.9497928372234,
+      "capacidad_volumen": 27.90306326134792,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "GLXC10",
+      "capacidad_peso": 211.41284717425503,
+      "capacidad_volumen": 21.361152662377542,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "QRTS60",
+      "capacidad_peso": 865.8604393413796,
+      "capacidad_volumen": 8.131731176146165,
+      "tipo": "Camiones refrigerados",
+      "disponible": false
+    },
+    {
+      "id": "YPAH94",
+      "capacidad_peso": 623.0306416169034,
+      "capacidad_volumen": 11.126066952616988,
+      "tipo": "Motos",
+      "disponible": false
+    },
+    {
+      "id": "TODU68",
+      "capacidad_peso": 850.2632673523667,
+      "capacidad_volumen": 23.245347875181537,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "HYEV81",
+      "capacidad_peso": 1335.0524827347917,
+      "capacidad_volumen": 2.290440235080747,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "NFIM07",
+      "capacidad_peso": 1525.9586792416928,
+      "capacidad_volumen": 27.15140259822701,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "WDPB18",
+      "capacidad_peso": 896.9391402942558,
+      "capacidad_volumen": 22.723539490566417,
+      "tipo": "Autos",
+      "disponible": false
+    },
+    {
+      "id": "IYHH25",
+      "capacidad_peso": 682.9064147914335,
+      "capacidad_volumen": 22.89598631639368,
+      "tipo": "Autos",
+      "disponible": true
+    },
+    {
+      "id": "RJVX78",
+      "capacidad_peso": 942.4007254391814,
+      "capacidad_volumen": 17.252072962546066,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "GEBB06",
+      "capacidad_peso": 382.5187613793075,
+      "capacidad_volumen": 24.735260257701167,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "UMRB60",
+      "capacidad_peso": 746.0466204654915,
+      "capacidad_volumen": 10.942341182385437,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "ZXKC28",
+      "capacidad_peso": 897.9359081046696,
+      "capacidad_volumen": 7.75656091974797,
+      "tipo": "Furgones",
+      "disponible": true
+    },
+    {
+      "id": "JMNE97",
+      "capacidad_peso": 1940.7730302407917,
+      "capacidad_volumen": 19.480762512054596,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "AKTL80",
+      "capacidad_peso": 886.4052209599612,
+      "capacidad_volumen": 14.580256446353587,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "GIGV54",
+      "capacidad_peso": 1263.3749778553363,
+      "capacidad_volumen": 10.225199570841207,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "MPLN87",
+      "capacidad_peso": 1304.4769496002698,
+      "capacidad_volumen": 15.415722140853344,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "GAUL76",
+      "capacidad_peso": 1393.728663604292,
+      "capacidad_volumen": 21.32392627367948,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "BKPY96",
+      "capacidad_peso": 1896.775498471978,
+      "capacidad_volumen": 12.924550176521914,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "BDUP75",
+      "capacidad_peso": 644.837288558621,
+      "capacidad_volumen": 19.027038640248286,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "JGZL34",
+      "capacidad_peso": 1667.130775388252,
+      "capacidad_volumen": 1.1055722479377208,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "MYLT51",
+      "capacidad_peso": 1315.443436155536,
+      "capacidad_volumen": 16.236121947224184,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "OJLI58",
+      "capacidad_peso": 1335.1847100537161,
+      "capacidad_volumen": 2.802770527598389,
+      "tipo": "Motos",
+      "disponible": true
+    },
+    {
+      "id": "XSYK86",
+      "capacidad_peso": 1582.859866876842,
+      "capacidad_volumen": 13.393696722246457,
+      "tipo": "Motos",
+      "disponible": false
+    },
+    {
+      "id": "FVKC75",
+      "capacidad_peso": 1041.999388322755,
+      "capacidad_volumen": 1.1210257840356315,
+      "tipo": "Camiones medios",
+      "disponible": true
+    },
+    {
+      "id": "XINH77",
+      "capacidad_peso": 808.8351506669624,
+      "capacidad_volumen": 13.793033608848795,
+      "tipo": "Camiones grandes",
+      "disponible": false
+    },
+    {
+      "id": "VWEF88",
+      "capacidad_peso": 684.7687209689477,
+      "capacidad_volumen": 29.887606127470765,
+      "tipo": "Camiones refrigerados",
+      "disponible": false
+    },
+    {
+      "id": "CCMB98",
+      "capacidad_peso": 1875.9583447788084,
+      "capacidad_volumen": 7.771408330926407,
+      "tipo": "Autos",
+      "disponible": false
+    },
+    {
+      "id": "HHCZ67",
+      "capacidad_peso": 917.2485408369024,
+      "capacidad_volumen": 14.95763010095874,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "YWPI15",
+      "capacidad_peso": 255.21329138594282,
+      "capacidad_volumen": 26.300504138985325,
+      "tipo": "Camiones medios",
+      "disponible": false
+    },
+    {
+      "id": "KGKE42",
+      "capacidad_peso": 362.0112055185346,
+      "capacidad_volumen": 6.010871556827189,
+      "tipo": "Camiones grandes",
+      "disponible": true
+    },
+    {
+      "id": "UWDH16",
+      "capacidad_peso": 1699.1112298133094,
+      "capacidad_volumen": 2.847764388746732,
+      "tipo": "Camiones refrigerados",
+      "disponible": true
+    },
+    {
+      "id": "POWL06",
+      "capacidad_peso": 466.99036689749346,
+      "capacidad_volumen": 9.56024221856325,
+      "tipo": "Furgones",
+      "disponible": false
+    },
+    {
+      "id": "DAVZ85",
+      "capacidad_peso": 1132.804723669086,
+      "capacidad_volumen": 24.59255056264752,
+      "tipo": "Camiones medios",
+      "disponible": false
+    },
+    {
+      "id": "LSNC49",
+      "capacidad_peso": 593.8113489448874,
+      "capacidad_volumen": 12.138594163172511,
+      "tipo": "Camiones pequeños",
+      "disponible": true
+    },
+    {
+      "id": "UGQE66",
+      "capacidad_peso": 731.356593352844,
+      "capacidad_volumen": 27.018950204885464,
+      "tipo": "Motos",
+      "disponible": true
+    }
+  ]

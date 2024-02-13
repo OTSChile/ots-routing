@@ -15,6 +15,7 @@ RUN pip install -r requirements.txt
 
 # Copiar el resto de los archivos del proyecto al contenedor
 COPY src/ /app/
+COPY data/ /app/data/
 
 # Expone el puerto que Flask utilizará
 EXPOSE 5000
