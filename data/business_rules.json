@@ -1,15 +1,15 @@
 [
     {
         "id": "1",
-        "tolerancia_carga": 30,
-        "tolerancia_volumen": 90,
+        "tolerancia_carga": 0,
+        "tolerancia_volumen": 0,
         "bultos_maximo": 80,
         "tipo": "Camiones medios"
     },
     {
         "id": "2",
-        "capacidad_peso": -10,
-        "capacidad_volumen": 10,
+        "capacidad_peso": 0,
+        "capacidad_volumen": 0,
         "bultos_maximo": 20,
         "tipo": "Motos"
     },

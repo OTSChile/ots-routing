@@ -3,6 +3,9 @@ from shapely.geometry import Polygon
 import matplotlib.pyplot as plt
 from models.point import *
 
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s')
 
 def are_points_within_geofence(geocerca, custom_points):
     geofence = Polygon(geocerca)

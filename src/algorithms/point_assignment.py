@@ -2,6 +2,7 @@ import json
 import os
 from utils.data_loader import read_points_from_file
 from models.point import CustomPoint
+from algorithms.vehicle_filter import aplicar_reglas_vehiculo
 
 
 def leer_reglas_negocio():
@@ -14,21 +15,14 @@ def leer_vehiculos_disponibles():
     with open(ruta_archivo, 'r') as file:
         return json.load(file)
 
-def aplicar_reglas_vehiculo(vehiculo, reglas):
-    # Encuentra y aplica las reglas específicas para el tipo de vehículo.
-    for regla in reglas:
-        if regla["tipo"] == vehiculo["tipo"]:
-            vehiculo_modificado = vehiculo.copy()
-            # Aplica las reglas de tolerancia al vehículo
-            vehiculo_modificado["capacidad_peso"] *= (1 + regla.get("tolerancia_carga", 0) / 100)
-            vehiculo_modificado["capacidad_volumen"] *= (1 + regla.get("tolerancia_volumen", 0) / 100)
-            vehiculo_modificado["bultos_maximo"] = regla.get("bultos_maximo", vehiculo.get("bultos_maximo", 0))
-            return vehiculo_modificado
-    return vehiculo
 
 def asignar_puntos_a_vehiculos(punto_inicial, puntos, vehiculos, reglas):
     # Aplicar reglas a vehículos
-    vehiculos_con_reglas = [aplicar_reglas_vehiculo(vehiculo, reglas) for vehiculo in vehiculos]
+    vehiculos_con_reglas = []
+    for vehiculo in vehiculos:
+        vehiculo_modificado = aplicar_reglas_vehiculo(vehiculo, reglas)
+        if vehiculo_modificado is not None:
+            vehiculos_con_reglas.append(vehiculo_modificado)
 
     #asignaciones = []
     asignaciones = {vehiculo["id"]: {"peso_total": 0, "volumen_total": 0, "bultos_total": 0, "puntos_asignados": []} for vehiculo in vehiculos_con_reglas}
